@@ -1,0 +1,41 @@
+.hero {
+  padding: 100px 0;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero__subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.intro__text{
+  font-size: 20px;
+}
+
+.instructions {
+  padding: 10px;
+}
+
+.info__image {
+  margin: 10px 0;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.instructions__image {
+  margin-bottom: 20px;
+  max-height: 550px;
+  object-fit: cover;
+  object-position: center top;
+}

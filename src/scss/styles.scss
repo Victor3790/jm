@@ -1,0 +1,45 @@
+// Import all of Bootstrap’s CSS
+//@import "bootstrap/scss/bootstrap";
+
+//Custom Bootstrap imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+
+:root{
+  --black: #09080e;
+  --white: #eeeeee;
+  --gray: #495057;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-subtitle {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 0;
+  margin-top: 80px;
+  text-align: center;
+}
