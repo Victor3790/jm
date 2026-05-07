@@ -36,6 +36,24 @@
   height: auto;
 }
 
+.menu
+{
+    background-color: var(--blue);
+    color: var(--white);
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    z-index: 9999;
+}
+
+.menu__list
+{
+    list-style: none;
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
