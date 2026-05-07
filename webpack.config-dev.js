@@ -7,7 +7,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'development',
   entry: {
-    index: [path.resolve('src/js/main.js')]
+    index: [path.resolve('src/js/main.js')],
+    archive: [path.resolve('src/js/archive.js')],
   },
   devServer: {
     open: true,
@@ -18,6 +19,10 @@ module.exports = {
       template: './src/index.html',
       chunks: ['index'],
       filename: 'index.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/dir-archive.html',
+      chunks: ['archive'],
+      filename: 'dir-archive.html' }),
   ],
   module: {
     rules: [
