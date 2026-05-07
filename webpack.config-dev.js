@@ -6,17 +6,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: './src/js/main.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
+  entry: {
+    index: [path.resolve('src/js/main.js')]
   },
   devServer: {
     open: true,
     hot: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html', filename: 'index.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      chunks: ['index'],
+      filename: 'index.html' }),
   ],
   module: {
     rules: [
