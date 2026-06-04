@@ -66,6 +66,12 @@
     margin-left: 20px;
 }
 
+.menu__list li a
+{
+    color: var(--white);
+    text-decoration: none;
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
