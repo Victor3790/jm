@@ -4,6 +4,7 @@
 // Import our custom CSS
 import '../scss/styles.scss'
 import '../scss/archive.scss'
+import '../scss/sidebar.scss'
 
 
 // Import the HTML file
