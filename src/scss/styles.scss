@@ -12,33 +12,14 @@
 @import "~bootstrap/scss/containers";
 @import "~bootstrap/scss/grid";
 
-@import "~bootstrap/scss/utilities";
-
-$utilities: (
-  "flex": map-get($utilities, "flex"),
-  "display": map-get($utilities, "display"),
-  "margin": map-get($utilities, "margin"),
-  "margin-top": map-get($utilities, "margin-top"),
-  "margin-bottom": map-get($utilities, "margin-bottom"),
-  "margin-start": map-get($utilities, "margin-start"),
-  "margin-end": map-get($utilities, "margin-end"),
-  "margin-x": map-get($utilities, "margin-x"),
-  "margin-y": map-get($utilities, "margin-y"),
-  "padding": map-get($utilities, "padding"),
-  "padding-top": map-get($utilities, "padding-top"),
-  "padding-bottom": map-get($utilities, "padding-bottom"),
-  "padding-start": map-get($utilities, "padding-start"),
-  "padding-end": map-get($utilities, "padding-end"),
-  "padding-x": map-get($utilities, "padding-x"),
-  "padding-y": map-get($utilities, "padding-y")
-);
-
-@import "~bootstrap/scss/utilities/api";
-
 :root{
   --black: #09080e;
   --white: #eeeeee;
   --gray: #495057;
+}
+
+.m-0 {
+  margin: 0!important;
 }
 
 .section {
@@ -75,6 +56,14 @@ $utilities: (
 .menu__list
 {
     list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.menu__list li
+{
+    margin-left: 20px;
 }
 
 .footer {
