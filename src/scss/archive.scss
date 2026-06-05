@@ -5,3 +5,15 @@
 .archive__item {
   margin-top: 30px;
 }
+
+.item__address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item__address-text {
+  font-size: 15px;
+  color: #1C274C;
+  margin-left: 3px;
+}
