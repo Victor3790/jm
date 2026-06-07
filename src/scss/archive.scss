@@ -18,20 +18,20 @@
   margin-bottom: 25px;
 }
 
-.item__address {
+.item__meta {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.item__address-icon {
+.item__meta-icon {
   width: 35px;
   height: 35px;
   flex-shrink: 0;
 }
 
-.item__address-text {
+.item__meta-text {
   font-size: 14px;
   color: #1C274C;
   margin-left: 3px;
@@ -48,7 +48,7 @@
     margin-bottom: 5px;
   }
 
-  .item__address {
+  .item__meta {
     margin-bottom: 0;
   }
 }
