@@ -6,7 +6,8 @@ module.exports = {
   mode: 'development',
   entry: {
     // Getting styles only
-    bootstrap: [path.resolve(__dirname,'src/prod/bootstrap.js')]
+    bootstrap: [path.resolve(__dirname,'src/prod/bootstrap.js')],
+    main: [path.resolve(__dirname,'src/prod/main.js')]
   },
   plugins: [
     new MiniCssExtractPlugin({
