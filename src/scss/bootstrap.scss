@@ -1,10 +1,29 @@
 //Custom Bootstrap imports
 @import "~bootstrap/scss/functions";
+
+// Disable dark mode generation flags
+$enable-dark-mode: false;
+
 @import "~bootstrap/scss/variables";
+
+// Clear ALL literal colors except white, gray, and black
+$colors: (
+  "white": $white,
+  "gray":  $gray-600,
+  "black": $black
+);
+
+// Re-map ALL mandatory theme colors to a grayscale palette
+// This prevents compilation errors while removing all color variants
+$theme-colors: (
+  "primary":   $black,
+  "secondary": $gray-600,
+);
+
 @import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 
-//@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/containers";
 @import "~bootstrap/scss/grid";
