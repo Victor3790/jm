@@ -1,16 +1,6 @@
-// Import all of Bootstrap’s CSS
-//@import "bootstrap/scss/bootstrap";
+// Import Bootstrap styles
+@import './bootstrap.scss';
 
-//Custom Bootstrap imports
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/maps";
-@import "~bootstrap/scss/mixins";
-
-@import "~bootstrap/scss/root";
-@import "~bootstrap/scss/reboot";
-@import "~bootstrap/scss/containers";
-@import "~bootstrap/scss/grid";
 
 :root{
   --black: #09080e;
