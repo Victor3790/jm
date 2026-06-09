@@ -9,6 +9,7 @@ module.exports = {
     bootstrap: [path.resolve(__dirname,'src/prod/bootstrap.js')],
     main: [path.resolve(__dirname,'src/prod/main.js')]
   },
+  output: { pathinfo: false, },
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
