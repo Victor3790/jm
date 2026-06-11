@@ -9,7 +9,8 @@ module.exports = {
     bootstrap: [path.resolve(__dirname,'src/prod/bootstrap.js')],
     styles: [path.resolve(__dirname,'src/prod/styles.js')],
     sidebar: [path.resolve(__dirname,'src/prod/sidebar.js')],
-    main: [path.resolve(__dirname,'src/prod/main.js')]
+    main: [path.resolve(__dirname,'src/prod/main.js')],
+    archive: [path.resolve(__dirname,'src/prod/archive.js')],
   },
   output: { pathinfo: false, },
   plugins: [
