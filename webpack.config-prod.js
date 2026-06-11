@@ -8,6 +8,7 @@ module.exports = {
     // Getting styles only
     bootstrap: [path.resolve(__dirname,'src/prod/bootstrap.js')],
     styles: [path.resolve(__dirname,'src/prod/styles.js')],
+    sidebar: [path.resolve(__dirname,'src/prod/sidebar.js')],
     main: [path.resolve(__dirname,'src/prod/main.js')]
   },
   output: { pathinfo: false, },
