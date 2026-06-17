@@ -55,7 +55,12 @@ module.exports = {
                   'global-builtin',
                   'import'
                 ],
-              }
+              },
+              additionalData: `
+                @import "~bootstrap/scss/functions";
+                @import "~bootstrap/scss/variables";
+                @import "~bootstrap/scss/mixins";
+              `,
             }
           }
         ]
