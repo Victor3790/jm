@@ -9,6 +9,7 @@ module.exports = {
   entry: {
     index: [path.resolve('src/js/main.js')],
     archive: [path.resolve('src/js/archive.js')],
+    categories: [path.resolve('src/js/cat-archive.js')],
   },
   devServer: {
     open: true,
@@ -23,6 +24,10 @@ module.exports = {
       template: './src/dir-archive.html',
       chunks: ['archive'],
       filename: 'dir-archive.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/cat-archive.html',
+      chunks: ['categories'],
+      filename: 'cat-archive.html' }),
   ],
   module: {
     rules: [
