@@ -9,7 +9,7 @@
 .item {
   margin-top: 35px;
   margin-bottom: 35px;
-  padding: 30px 50px;
+  padding: 20px 40px;
 }
 
 .item__title {
@@ -45,12 +45,20 @@
 }
 
 @include media-breakpoint-up(md) {
+  .item {
+    padding: 30px 50px;
+  }
+
   .item__title {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
   }
 
   .item__meta {
     margin-bottom: 0;
     margin-top: 10px;
+  }
+
+  .item__description {
+    margin-top: 20px;
   }
 }
