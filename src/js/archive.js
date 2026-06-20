@@ -3,7 +3,7 @@ import '../scss/bootstrap.scss'
 import '../scss/styles.scss'
 import '../scss/breadcrumbs.scss'
 import '../scss/archive.scss'
-import '../scss/sidebar.scss'
+//import '../scss/sidebar.scss'
 
 
 // Import the HTML file
