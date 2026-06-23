@@ -1,6 +1,10 @@
 .breadcrumbs{
-    margin-top: 70px;
+    margin-top: 60px;
+    margin-left: 0;
+    padding-left: 0;
     font-size: 13px;
+    list-style: none;
+    display: flex;
 }
 
 .breadcrumbs__link, .breadcrumbs__current-page{
