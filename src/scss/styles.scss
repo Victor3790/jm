@@ -39,6 +39,11 @@
     z-index: 9999;
 }
 
+.menu__logo {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .menu__list
 {
     list-style: none;
