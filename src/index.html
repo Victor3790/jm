@@ -6,28 +6,49 @@
     <title>Jardines de Morelos Ecatepec</title>
     <link rel="icon" href="img/fav-icon.png" sizes="32x32">
     <meta name="description" content="Descubre Jardines de Morelos, Ecatepec, un fraccionamiento con historia y tradición. Aprende cómo llegar y conoce más sobre su ubicación y características.">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Nombre del sitio",
-        "url": "https://ejemplo.com",
-        "description": "Guía local de [Nombre de la colonia] con información sobre historia, lugares, servicios y negocios de la zona.",
-        "about": {
-          "@type": "Place",
-          "name": "[Nombre de la colonia]",
-          "containedInPlace": {
-            "@type": "AdministrativeArea",
-            "name": "[Alcaldía]"
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://tusitio.com/#website",
+          "url": "https://tusitio.com/",
+          "name": "Nombre del sitio",
+          "description": "Guía local de [Nombre de la colonia] con información sobre historia, lugares, servicios y negocios de la zona.",
+          "inLanguage": "es-MX",
+          "about": {
+            "@id": "https://tusitio.com/#place"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://tusitio.com/#webpage",
+          "url": "https://tusitio.com/",
+          "name": "Guía de [Nombre de la colonia]",
+          "isPartOf": {
+            "@id": "https://tusitio.com/#website"
           },
+          "about": {
+            "@id": "https://tusitio.com/#place"
+          },
+          "inLanguage": "es-MX"
+        },
+        {
+          "@type": "Place",
+          "@id": "https://tusitio.com/#place",
+          "name": "[Nombre de la colonia]",
+          "description": "Información local sobre [Nombre de la colonia], incluyendo historia, lugares de interés, servicios y negocios.",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Ciudad de México",
+            "addressLocality": "[Ciudad]",
+            "addressRegion": "[Estado]",
             "addressCountry": "MX"
           }
         }
-      }
-    </script>
+      ]
+    }
+  </script>
 </head>
 <body>
   <header>
