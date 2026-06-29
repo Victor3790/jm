@@ -11,6 +11,7 @@ module.exports = {
     sidebar: [path.resolve(__dirname,'src/prod/sidebar.js')],
     main: [path.resolve(__dirname,'src/prod/main.js')],
     archive: [path.resolve(__dirname,'src/prod/archive.js')],
+    breadcrumbs: [path.resolve(__dirname,'src/prod/breadcrumbs.js')],
   },
   output: { pathinfo: false, },
   plugins: [
